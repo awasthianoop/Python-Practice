@@ -1,0 +1,7 @@
+a=int(input("write any integer value of coefficient of x^2"))
+b=int(input("write any integer value of coefficient of x"))
+c=int(input("write any integer value of constant"))
+root1=(-b+((b)**2-(4*a*c))**0.5)/(2*a)
+root2=(-b-((b)**2-(4*a*c))**0.5)/(2*a)
+print("first root is=",root1)
+print("second root is=",root2)
